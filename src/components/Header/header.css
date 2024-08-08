@@ -7,17 +7,22 @@ header{
     background-color: #000;
 }
 .logo{
-    color: #fff;
+    color: tomato;
     font-size: 1.5rem;
     font-weight: bold;
     cursor: pointer;
     text-decoration: none;
+    -webkit-text-stroke: .3px #fff;
 }
 .favoritos{
     cursor: pointer;
-    background-color: white;
+    background-color: tomato;
     padding: 5px 14px;
     text-decoration: none;
-    color: #000;
+    color: #fff;
     border-radius: 5px;
+}
+.letras{
+    font-size: 1.8rem;
+    font-weight: bold;
 }

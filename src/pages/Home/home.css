@@ -8,6 +8,12 @@
     padding: 15px;
     border-radius: 5px;
 }
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
 .lista_filmes strong{
     margin-bottom: 14px;
     font-size: 22px;
@@ -29,7 +35,7 @@
     align-items: center;
     padding: 10px 0;
     font-size: 1.5rem;
-    background-color: #116feb;
+    background-color: tomato;
     text-decoration: none;
     color: white;
     border-radius: 0 0 5px 5px ;
