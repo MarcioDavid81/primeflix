@@ -78,6 +78,9 @@ function Filme() {
                 <button>
                     <a href={`https://www.youtube.com/results?search_query=${filme.title} Trailer`} target="_blank" rel="external">Trailer</a>
                 </button>
+                <button onClick={() => navigate('/')}>
+                    Voltar
+                </button>
             </div>
 
         </div>

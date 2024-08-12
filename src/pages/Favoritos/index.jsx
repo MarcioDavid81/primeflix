@@ -46,6 +46,7 @@ function Favoritos() {
                     );
                 })}
             </ul>
+            <button><Link to="/">Voltar para Home</Link></button>
         </div>
     );
 }
