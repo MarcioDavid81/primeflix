@@ -24,8 +24,33 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}.meus_filmes div a{
+}
+.meus_filmes div a{
     text-decoration: none;
     color: tomato;
     margin-right: 15px;
+}
+button{
+    margin-right: 12px;
+    margin-top: 15px;
+    margin-left: 0;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+button:hover{
+    background-color: tomato;
+    color: #fff;
+}
+button a{
+    text-decoration: none;
+    color: #000;
+    transition: all 0.3s;   
+}
+button a:hover{
+    color: #fff;
 }
